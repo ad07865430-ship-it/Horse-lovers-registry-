@@ -18,42 +18,41 @@ padding:20px;
 max-width:430px;
 margin:auto;
 background:#fff;
-border-radius:20px;
+border-radius:18px;
 overflow:hidden;
-box-shadow:0 0 20px rgba(0,0,0,.4);
+box-shadow:0 0 20px rgba(255,215,0,.4);
+border:4px solid #d4af37;
 }
 
 .header{
-background:#0b5d1e;
-color:#fff;
+background:#000;
+color:#d4af37;
 text-align:center;
 padding:15px;
 }
 
-.header h2{
-margin:0;
-font-weight:bold;
-}
-
 .photo{
 width:100%;
-height:260px;
+height:280px;
 object-fit:cover;
 }
 
 .info{
 padding:20px;
-}
-
-.info p{
-margin:8px 0;
 font-size:17px;
 }
 
-.badge{
+.info b{
+color:#000;
+}
+
+.verify{
 background:#198754;
-font-size:16px;
+color:white;
 padding:8px 15px;
+border-radius:30px;
+display:inline-block;
+font-weight:bold;
 }
 
 .qr{
@@ -62,16 +61,14 @@ margin-top:20px;
 }
 
 .qr img{
-width:160px;
-height:160px;
+width:170px;
 }
 
 .footer{
-background:#0b5d1e;
-color:white;
+background:#000;
+color:#fff;
 text-align:center;
-padding:10px;
-font-size:14px;
+padding:12px;
 }
 </style>
 
@@ -81,8 +78,8 @@ font-size:14px;
 <div class="card">
 
 <div class="header">
-<h2>HORSE IDENTITY CARD</h2>
-<small>Horse Lovers Registry Pakistan</small>
+<h2>🐎 HORSE IDENTITY CARD</h2>
+<p>Horse Lovers Registry Pakistan</p>
 </div>
 
 <img src="images/IMG-20260609-WA0126.jpg" class="photo">
@@ -101,22 +98,17 @@ font-size:14px;
 
 <p><b>Location:</b> Gujrat</p>
 
-<p><b>Status:</b>
-<span class="badge">✔ VERIFIED</span>
-</p>
+<p><span class="verify">✔ VERIFIED HORSE</span></p>
 
 <div class="qr">
-
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://ad07865430-ship-it.github.io/Horse-lovers-registry-/">
-
-<p>Scan QR Code</p>
-
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://ad07865430-ship-it.github.io/Horse-lovers-registry-/">
+<p>Scan to Verify</p>
 </div>
 
 </div>
 
 <div class="footer">
-Horse Lovers Registry Pakistan
+Horse Lovers Registry Pakistan © 2026
 </div>
 
 </div>
